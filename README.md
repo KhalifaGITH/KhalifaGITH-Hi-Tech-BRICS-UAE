@@ -118,9 +118,7 @@ DroneAI_Task2/
 
 ### Environment
 ```bash
-git clone https://github.com/<your_username>/DroneAI_Task2.git
-cd DroneAI_Task2
-pip install -r requirements.txt
+We used GoogleColab
 ```
 
 ### Dependencies
@@ -133,20 +131,9 @@ pip install -r requirements.txt
 ---
 
 ## 🚀 Usage
-
-### Training
+Just run the below in the google colab
 ```bash
-python train.py
-```
-
-### Prediction
-```bash
-python predict.py --input data/test_image.tif --output results/mask.tif
-```
-
-### Visualization
-```bash
-python utils/visualize.py --input results/mask.tif
+DroneAI_Task2_Colab.ipynb 
 ```
 
 ---
