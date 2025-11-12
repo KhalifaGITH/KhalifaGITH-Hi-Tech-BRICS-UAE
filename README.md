@@ -4,8 +4,7 @@
 
 This project was developed as part of the **International Championship of High-Tech Professions “Хайтек: навыки будущего”**, under the direction **AI Technologies in Integrated Unmanned Systems (Hackathon)**.
 
-**Partner:** LLC “GeosAero”  
-**Contact:** Zakhar A. Zavyalov (CEO) — [zavyalov@geosaero.ru](mailto:zavyalov@geosaero.ru)
+**Team Name:** ADPOLY AI Drone 
 
 ### 🎯 Goal
 Develop an **automatic segmentation and classification algorithm** for agricultural land using **orthophotos (GeoTIFF)** captured by UAVs (GSD ≈ 10 cm/pixel).
@@ -68,12 +67,19 @@ The goal of this project is to automate the classification process using **deep 
 ## 📊 Results & Visualizations
 
 ### Training Curves
-![Training Curves](docs/images/training_curves.png)
+<img width="808" height="367" alt="image" src="https://github.com/user-attachments/assets/0f5f1897-0f0b-4590-8be6-2521a8a5fc4f" />
+
+
+<img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/e4562b71-6ed5-4a98-8af1-9e3491f85f45" />
+
 
 ### Segmentation Example
-| Original | Predicted Mask |
-|-----------|----------------|
-| ![Original Image](docs/images/original_sample.png) | ![Predicted Mask](docs/images/pred_mask.png) |
+| Tile RGB | Label Mask | Overlay | 
+|-----------|----------------|----------------|
+| <img width="950" height="315" alt="image" src="https://github.com/user-attachments/assets/3cd6013f-d54c-4a6f-b90b-6bfbdd9f43f7" />
+ | <img width="950" height="315" alt="image" src="https://github.com/user-attachments/assets/64b35eba-a17c-42b8-b83f-9aa7f9e629a7" />
+ |<img width="950" height="315" alt="image" src="https://github.com/user-attachments/assets/e4a7af84-f3a1-419e-b484-70fc86576ca5" />|
+
 
 ### Class Distribution
 ![Class Distribution](docs/images/class_distribution.png)
