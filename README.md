@@ -94,7 +94,7 @@ We used GoogleColab
 ```
 
 ### Dependencies
-- tensorflow / keras
+- pytorch
 - opencv-python
 - numpy, pandas, matplotlib, seaborn
 - gdal / rasterio
