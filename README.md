@@ -86,34 +86,6 @@ The goal of this project is to automate the classification process using **deep 
 
 ---
 
-## 📁 Repository Structure
-
-```
-DroneAI_Task2/
-│
-├── DroneAI_Task2_Colab.ipynb     # Main training notebook
-├── data/
-│   ├── raw/                      # Original GeoTIFF orthophotos
-│   ├── tiles/                    # Processed image tiles
-│   └── masks/                    # Ground truth masks
-│
-├── models/
-│   └── unet_weights_best.h5      # Trained model weights
-│
-├── utils/
-│   ├── gdal_utils.py             # Georeferencing and tiling helpers
-│   ├── visualize.py              # Visualization functions
-│   └── metrics.py                # Evaluation metrics
-│
-├── docs/
-│   └── images/                   # Graphs and result visualizations
-│
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## ⚙️ Installation & Setup
 
 ### Environment
